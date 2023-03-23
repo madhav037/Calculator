@@ -1,0 +1,120 @@
+body{
+    position: relative;
+    height: 100px;
+    width: 900px;
+      margin: none;
+      background-color: rgb(15,15,15);
+    }
+    .main{
+      position: relative;
+      top: 50%;
+      left:50%;
+      transform: translate('-50%','-50%');
+    }
+  
+    #output-box{
+      align-items: center;
+      background-color: rgb(15,15,15);
+      margin: 25px 10px 5px 300px;
+       border-radius: 10px;
+    }
+    #output-box input{
+      background-color: rgb(25,25,25);
+      border: none;
+      color: white;
+      margin-top: 0px;
+      border-radius: 10px;
+    }
+    #answer{
+      margin-left: -300px;
+      padding: 10px;
+      text-align: right;
+      width: 370px;
+    }
+  
+    #number-box{
+      position: absolute;
+      background-color: rgb(35,35,35);
+      top: 10%;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 40px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    #clr, #CE, #modulo, #divide, #one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero, #dot, #add, #sub, #multi, #equals, #plus-minus{
+      position: relative;
+      border-radius: 10px;
+      background-color: rgb(50, 50, 50);
+      height: 75px;
+      width: 75px;
+      margin: 5px;
+      border: none;
+    }
+    
+    #CE, #eight, #five, #two, #zero{
+      /* left: 35%; */
+    }
+    
+    #modulo, #nine, #six, #three, #dot{
+      /* left: 48%; */
+    }
+    
+    #divide, #multi, #sub, #add, #equals{
+      /* left: 61%; */
+    }
+    
+    #seven, #eight, #nine, #multi{
+      top: 18%;
+    }
+    
+    #four, #five, #six, #sub{
+      top: 31%;
+    }
+    
+    #one, #two, #three, #add{
+      top: 44%;
+    }
+    
+    #plus-minus, #zero, #dot, #equals{
+      top: 57%;
+    }
+    
+    h2{
+      text-align: center;
+      color: white;
+      z-index: 10;
+    }
+    
+    #clr:hover, #CE:hover{
+      background-color: darkred;
+    }
+    #modulo:hover, #divide:hover, #multi:hover, #sub:hover, #add:hover{
+      background-color: rgb(60,60,60);
+    }
+    #one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #six:hover, #seven:hover, #eight:hover, #nine:hover, #plus-minus:hover, #dot:hover, #zero:hover{
+      background-color: rgb(50,50,50);
+    }
+    #one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #plus-minus, #zero, #dot{
+      background-color: rgb(60,60,60)
+    }
+    #equals:hover{
+      background-color: green;
+    }
+    #clr h2, #CE h2, #modulo h2, #divide h2, #one h2, #two h2, #three h2, #four h2, #five h2, #six h2, #seven h2, #eight h2, #nine h2, #zero h2, #dot h2, #add h2, #sub h2, #multi h2, #equals h2, #plus-minus h2{
+      margin-top: 25px;
+      font-size: 25px;
+      font-weight: 100;
+    }
+    
+  
+  
+  
+    @media screen and (max-width:600px){
+      body{
+        height: 200px;
+        width: 200px;
+      }
+      
+    }
